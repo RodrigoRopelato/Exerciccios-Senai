@@ -62,10 +62,38 @@ namespace Exercicios
         private void btn_Inverter_Click(object sender, EventArgs e)
         {
             txt_Saida.Clear();
-            for (int i = txt_Entrada.Text.Length-1; i >= 0; i--)
+            for (int i = txt_Entrada.Text.Length - 1; i >= 0; i--)
                 txt_Saida.Text += txt_Entrada.Text[i];
         }
 
+        //Exercicio 5
+        private void btn_CalculoMedias_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(txtNota1.Text) && String.IsNullOrEmpty(txtNota2.Text) && String.IsNullOrEmpty(txtNota3.Text) && String.IsNullOrEmpty(txtNota4.Text))
+                MessageBox.Show(" Valores invalidos, verifique!\n São nescessárias no minimo duas notas para calcular a média", "Atenção");
+
+            else if (String.IsNullOrEmpty(txtNota2.Text) && String.IsNullOrEmpty(txtNota3.Text) && String.IsNullOrEmpty(txtNota4.Text))
+                MessageBox.Show(" Valores invalidos, verifique!\n São nescessárias no minimo duas notas para calcular a média", "Atenção");
+
+            else if (String.IsNullOrEmpty(txtNota3.Text) && String.IsNullOrEmpty(txtNota4.Text))
+                if (double.Parse(txtNota1.Text) <= 10 && double.Parse(txtNota2.Text) <= 10)
+                    MessageBox.Show(" Média : " + ((double.Parse(txtNota1.Text) + double.Parse(txtNota2.Text)) / 2).ToString("##.##"), "Média");
+                else
+                    MessageBox.Show(" Valores invalidos, verifique!", "Atenção");
+            else if (String.IsNullOrEmpty(txtNota4.Text))
+                if (double.Parse(txtNota1.Text) <= 10 && double.Parse(txtNota2.Text) <= 10 && double.Parse(txtNota3.Text) <= 10)
+                    MessageBox.Show(" Média : " + ((double.Parse(txtNota1.Text) + double.Parse(txtNota2.Text) + double.Parse(txtNota3.Text)) / 3).ToString("##.##"), "Média");
+                else
+                    MessageBox.Show(" Valores invalidos, verifique!", "Atenção");
+
+            else if (String.IsNullOrEmpty(txtNota1.Text) || String.IsNullOrEmpty(txtNota2.Text) || String.IsNullOrEmpty(txtNota3.Text) || String.IsNullOrEmpty(txtNota4.Text))
+
+                MessageBox.Show(" Valores invalidos, verifique!", "Atenção");
+            else
+                if (double.Parse(txtNota1.Text) <= 10 && double.Parse(txtNota2.Text) <= 10 && double.Parse(txtNota3.Text) <= 10 && double.Parse(txtNota4.Text) <= 10)
+                MessageBox.Show(" Média : " + ((double.Parse(txtNota1.Text) + double.Parse(txtNota2.Text) + double.Parse(txtNota3.Text) + double.Parse(txtNota4.Text)) / 4).ToString("##.##"), "Média");
+
+        }
 
 
         #region Auxiliares do Exercicio 1
@@ -116,6 +144,7 @@ namespace Exercicios
                 e.Handled = true;
             }
         }
+
 
 
 

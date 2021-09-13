@@ -382,7 +382,7 @@ namespace Exercicios
             this.groupBox5.Controls.Add(this.txtNota1);
             this.groupBox5.Location = new System.Drawing.Point(218, 218);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(287, 202);
+            this.groupBox5.Size = new System.Drawing.Size(287, 188);
             this.groupBox5.TabIndex = 8;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Exercicio 5";
@@ -402,6 +402,7 @@ namespace Exercicios
             this.txtNota3.Name = "txtNota3";
             this.txtNota3.Size = new System.Drawing.Size(85, 23);
             this.txtNota3.TabIndex = 5;
+            this.txtNota3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Comp_KeyPress);
             // 
             // label12
             // 
@@ -423,12 +424,13 @@ namespace Exercicios
             // 
             // btn_CalculoMedias
             // 
-            this.btn_CalculoMedias.Location = new System.Drawing.Point(106, 33);
+            this.btn_CalculoMedias.Location = new System.Drawing.Point(106, 68);
             this.btn_CalculoMedias.Name = "btn_CalculoMedias";
             this.btn_CalculoMedias.Size = new System.Drawing.Size(175, 56);
             this.btn_CalculoMedias.TabIndex = 2;
             this.btn_CalculoMedias.Text = "Calcular Média";
             this.btn_CalculoMedias.UseVisualStyleBackColor = true;
+            this.btn_CalculoMedias.Click += new System.EventHandler(this.btn_CalculoMedias_Click);
             // 
             // txtNota2
             // 
@@ -436,6 +438,7 @@ namespace Exercicios
             this.txtNota2.Name = "txtNota2";
             this.txtNota2.Size = new System.Drawing.Size(85, 23);
             this.txtNota2.TabIndex = 1;
+            this.txtNota2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Comp_KeyPress);
             // 
             // txtNota1
             // 
@@ -443,6 +446,7 @@ namespace Exercicios
             this.txtNota1.Name = "txtNota1";
             this.txtNota1.Size = new System.Drawing.Size(85, 23);
             this.txtNota1.TabIndex = 0;
+            this.txtNota1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Comp_KeyPress);
             // 
             // label14
             // 
@@ -459,6 +463,7 @@ namespace Exercicios
             this.txtNota4.Name = "txtNota4";
             this.txtNota4.Size = new System.Drawing.Size(85, 23);
             this.txtNota4.TabIndex = 7;
+            this.txtNota4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Comp_KeyPress);
             // 
             // Exercicios
             // 
