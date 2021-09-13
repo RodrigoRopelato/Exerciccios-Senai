@@ -1,0 +1,16 @@
+C:\Users\rodri\source\repos\Exercicios\Exercicios\bin\Debug\netcoreapp3.1\Exercicios.exe
+C:\Users\rodri\source\repos\Exercicios\Exercicios\bin\Debug\netcoreapp3.1\Exercicios.deps.json
+C:\Users\rodri\source\repos\Exercicios\Exercicios\bin\Debug\netcoreapp3.1\Exercicios.runtimeconfig.json
+C:\Users\rodri\source\repos\Exercicios\Exercicios\bin\Debug\netcoreapp3.1\Exercicios.runtimeconfig.dev.json
+C:\Users\rodri\source\repos\Exercicios\Exercicios\bin\Debug\netcoreapp3.1\Exercicios.dll
+C:\Users\rodri\source\repos\Exercicios\Exercicios\bin\Debug\netcoreapp3.1\Exercicios.pdb
+C:\Users\rodri\source\repos\Exercicios\Exercicios\obj\Debug\netcoreapp3.1\Exercicios.csproj.AssemblyReference.cache
+C:\Users\rodri\source\repos\Exercicios\Exercicios\obj\Debug\netcoreapp3.1\Exercicios.Exercicios.resources
+C:\Users\rodri\source\repos\Exercicios\Exercicios\obj\Debug\netcoreapp3.1\Exercicios.csproj.GenerateResource.cache
+C:\Users\rodri\source\repos\Exercicios\Exercicios\obj\Debug\netcoreapp3.1\Exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\source\repos\Exercicios\Exercicios\obj\Debug\netcoreapp3.1\Exercicios.AssemblyInfoInputs.cache
+C:\Users\rodri\source\repos\Exercicios\Exercicios\obj\Debug\netcoreapp3.1\Exercicios.AssemblyInfo.cs
+C:\Users\rodri\source\repos\Exercicios\Exercicios\obj\Debug\netcoreapp3.1\Exercicios.csproj.CoreCompileInputs.cache
+C:\Users\rodri\source\repos\Exercicios\Exercicios\obj\Debug\netcoreapp3.1\Exercicios.dll
+C:\Users\rodri\source\repos\Exercicios\Exercicios\obj\Debug\netcoreapp3.1\Exercicios.pdb
+C:\Users\rodri\source\repos\Exercicios\Exercicios\obj\Debug\netcoreapp3.1\Exercicios.genruntimeconfig.cache
