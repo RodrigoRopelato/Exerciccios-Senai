@@ -59,10 +59,21 @@ namespace Exercicios
             this.btnTamanho = new System.Windows.Forms.Button();
             this.txt_Saida = new System.Windows.Forms.TextBox();
             this.txt_Entrada = new System.Windows.Forms.TextBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtNota3 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btn_CalculoMedias = new System.Windows.Forms.Button();
+            this.txtNota2 = new System.Windows.Forms.TextBox();
+            this.txtNota1 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txtNota4 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -358,11 +369,103 @@ namespace Exercicios
             this.txt_Entrada.Size = new System.Drawing.Size(275, 53);
             this.txt_Entrada.TabIndex = 0;
             // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.label14);
+            this.groupBox5.Controls.Add(this.txtNota4);
+            this.groupBox5.Controls.Add(this.label11);
+            this.groupBox5.Controls.Add(this.txtNota3);
+            this.groupBox5.Controls.Add(this.label12);
+            this.groupBox5.Controls.Add(this.label13);
+            this.groupBox5.Controls.Add(this.btn_CalculoMedias);
+            this.groupBox5.Controls.Add(this.txtNota2);
+            this.groupBox5.Controls.Add(this.txtNota1);
+            this.groupBox5.Location = new System.Drawing.Point(218, 218);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(287, 202);
+            this.groupBox5.TabIndex = 8;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Exercicio 5";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 97);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(42, 15);
+            this.label11.TabIndex = 6;
+            this.label11.Text = "Nota 3";
+            // 
+            // txtNota3
+            // 
+            this.txtNota3.Location = new System.Drawing.Point(6, 112);
+            this.txtNota3.Name = "txtNota3";
+            this.txtNota3.Size = new System.Drawing.Size(85, 23);
+            this.txtNota3.TabIndex = 5;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(6, 56);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(42, 15);
+            this.label12.TabIndex = 4;
+            this.label12.Text = "Nota 2";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(6, 18);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(42, 15);
+            this.label13.TabIndex = 3;
+            this.label13.Text = "Nota 1";
+            // 
+            // btn_CalculoMedias
+            // 
+            this.btn_CalculoMedias.Location = new System.Drawing.Point(106, 33);
+            this.btn_CalculoMedias.Name = "btn_CalculoMedias";
+            this.btn_CalculoMedias.Size = new System.Drawing.Size(175, 56);
+            this.btn_CalculoMedias.TabIndex = 2;
+            this.btn_CalculoMedias.Text = "Calcular Média";
+            this.btn_CalculoMedias.UseVisualStyleBackColor = true;
+            // 
+            // txtNota2
+            // 
+            this.txtNota2.Location = new System.Drawing.Point(6, 71);
+            this.txtNota2.Name = "txtNota2";
+            this.txtNota2.Size = new System.Drawing.Size(85, 23);
+            this.txtNota2.TabIndex = 1;
+            // 
+            // txtNota1
+            // 
+            this.txtNota1.Location = new System.Drawing.Point(6, 33);
+            this.txtNota1.Name = "txtNota1";
+            this.txtNota1.Size = new System.Drawing.Size(85, 23);
+            this.txtNota1.TabIndex = 0;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(6, 138);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(42, 15);
+            this.label14.TabIndex = 8;
+            this.label14.Text = "Nota 4";
+            // 
+            // txtNota4
+            // 
+            this.txtNota4.Location = new System.Drawing.Point(6, 153);
+            this.txtNota4.Name = "txtNota4";
+            this.txtNota4.Size = new System.Drawing.Size(85, 23);
+            this.txtNota4.TabIndex = 7;
+            // 
             // Exercicios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(514, 426);
+            this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -377,6 +480,8 @@ namespace Exercicios
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -413,6 +518,16 @@ namespace Exercicios
         private System.Windows.Forms.Button btnTamanho;
         private System.Windows.Forms.TextBox txt_Saida;
         private System.Windows.Forms.TextBox txt_Entrada;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox txtNota4;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtNota3;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btn_CalculoMedias;
+        private System.Windows.Forms.TextBox txtNota2;
+        private System.Windows.Forms.TextBox txtNota1;
     }
 }
 
